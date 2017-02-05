@@ -30,6 +30,10 @@ a {
     transform: translateX(-50%) translateY(-50%);
 }
 
+.page-header img {
+    height: 6em;
+}
+
 .page-header h1 {
     font-size: 68px;
     color: #ffffff;
