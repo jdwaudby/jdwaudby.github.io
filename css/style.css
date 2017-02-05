@@ -38,6 +38,14 @@ a {
 
 .page-header a {
     color: #ffffff;
+    -ms-transition: color .2s ease-out;
+    -o-transition: color .2s ease-out;
+    -webkit-transition: color .2s ease-out;
+    transition: color .2s ease-out;
+}
+
+.page-header a:hover {
+    color: #a3a3a3;
 }
 
 .page-header .content .social-links {
